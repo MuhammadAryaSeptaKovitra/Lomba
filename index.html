@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet" />
+    <title>WEBSITE</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="hero">
+          <h2 class="heading">ARYA SEPTA</h2>
+          <p class="sub-heading">Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="features feature-1">
+          <h4 class="price">lorem</h4>
+          <p class="item">item</p>
+        </div>
+        <div class="features feature-2">
+          <h4 class="price">lorem</h4>
+          <p class="item">item</p>
+        </div>
+      </header>
+      <nav class="menu">
+        <div class="menu-toggle">
+          <input type="checkbox" name="" id="" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="brand">
+          <h1>Lorem ipsum dolor sit.</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="">Home</a></li>
+          <li><a href="">Product</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Gallery</a></li>
+        </ul>
+      </nav>
+      <div class="services">
+        <div class="service">
+          <div class="icon"></div>
+          <h3>Tutorial</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis quidem dicta laudantium, id quo!</p>
+        </div>
+        <div class="service">
+          <div class="icon"></div>
+          <h3>Online Course</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis quidem dicta laudantium, id quo!</p>
+        </div>
+        <div class="service">
+          <div class="icon"></div>
+          <h3>Podcast</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis quidem dicta laudantium, id quo!</p>
+        </div>
+      </div>
+      <section class="gallery">
+        <h2>galerry</h2>
+        <img src="https://source.unsplash.com/random/200x200" alt="" />
+        <img src="https://source.unsplash.com/random/201x200" alt="" />
+        <img src="https://source.unsplash.com/random/202x200" alt="" />
+        <img src="https://source.unsplash.com/random/203x200" alt="" />
+        <img src="https://source.unsplash.com/random/204x200" alt="" />
+        <img src="https://source.unsplash.com/random/205x200" alt="" />
+        <img src="https://source.unsplash.com/random/206x200" alt="" />
+        <img src="https://source.unsplash.com/random/207x200" alt="" />
+        <img src="https://source.unsplash.com/random/208x200" alt="" />
+        <img src="https://source.unsplash.com/random/209x200" alt="" />
+      </section>
+    </div>
+
+    <script>
+      const menutoggle = document.querySelector(".menu-toggle input");
+      const nav = document.querySelector("nav ul");
+
+      menutoggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+      });
+    </script>
+  </body>
+</html>
